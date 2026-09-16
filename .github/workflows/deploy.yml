@@ -17,7 +17,6 @@ jobs:
           username: ubuntu
           key: ${{ secrets.AWS_SSH_KEY }}
           script: |
-            script: |
             # 1. Ir a la ruta absoluta del proyecto
             cd /home/ubuntu/crm-motos-pipeline-ia
             
