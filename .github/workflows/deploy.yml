@@ -16,6 +16,7 @@ jobs:
           host: ${{ secrets.AWS_HOST }}
           username: ubuntu
           key: ${{ secrets.AWS_SSH_KEY }}
+          command_timeout: 45m
           script: |
             cd /home/ubuntu/crm-motos-pipeline-ia
             
