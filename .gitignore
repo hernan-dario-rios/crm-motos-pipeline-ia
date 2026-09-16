@@ -1,0 +1,66 @@
+# Python & Entornos Virtuales
+#==================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Base de Datos Local y Almacenamiento
+#==================================================
+*.db
+*.sqlite3
+data/
+backend/data/
+backend/storage/
+storage/
+*.log
+
+# Variables de Entorno y Secretos
+#==================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+ssl/
+frontend/ssl/
+
+# Frontend (Node / Vite / React)
+#==================================================
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.npm
+.eslintcache
+
+# Terraform & AWS
+#==================================================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+# Editores y Sistema Operativo
+#==================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

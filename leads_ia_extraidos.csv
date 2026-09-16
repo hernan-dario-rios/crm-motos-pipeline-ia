@@ -1,0 +1,166 @@
+conversacion_id,lead_id,modelo_interes,presupuesto_mencionado,forma_pago,intencion_declarada,objecion_principal,pidio_cita
+CONV-00613,LD-01377,Honda CB 125F Twister,,financiada,averiguando valor de cuota,tasa alta,False
+CONV-00090,LD-00986,Bajaj Dominar 400,,financiada,averiguando proceso de crédito,muy caro,False
+CONV-00603,LD-00348,Bajaj Discover 125,500000.0,financiada,solicitar informacion de financiamiento,busca alternativas usadas,False
+CONV-00134,LD-00164,Honda Navi,,,solo mirar precios,muy caro,False
+CONV-00321,LD-00128,Honda XR 150L,,,comparando,sin inicial,False
+CONV-00553,LD-00215,Honda XRE 300,800000.0,financiada,solicitar informacion de financiamiento,muy caro,False
+CONV-00271,LD-00648,AKT NKD 125,,,comparando,evaluando otras marcas,False
+CONV-00509,LD-01378,Bajaj Discover 125,,,solo mirar precios,sin inicial,False
+CONV-00494,LD-01424,Honda Navi,1200000.0,financiada,comprar urgente,,False
+CONV-00256,LD-01427,Bajaj Dominar 400,2000000.0,financiada,comprar urgente,,True
+CONV-00004,LD-00655,Bajaj Dominar 400,0.0,financiada,solicitar informacion de financiamiento,sin inicial,False
+CONV-00425,LD-01099,Bajaj Discover 125,4000000.0,financiada,comprar urgente,,True
+CONV-00648,LD-99188,AKT NKD 125,,financiada,averiguando proceso de crédito,tasa alta,False
+CONV-00089,LD-01071,Honda CB 125F Twister,,,solo mirar precios,tasa alta,False
+CONV-00640,LD-01062,Suzuki V-Strom 250,,,solo mirar precios,tiempo de entrega,False
+CONV-00219,LD-01246,Honda Dio 110,6800000.0,contado,comprar urgente,,True
+CONV-00498,LD-01028,Bajaj Pulsar RS 200,,,solo mirar precios,,False
+CONV-00543,LD-00304,AKT TTR 200,,,solo mirar precios,reportado,False
+CONV-00500,LD-01302,AKT Evo RS 150,,,solo mirar precios,muy caro,False
+CONV-00358,LD-01278,Hero Eco Deluxe 100,4000000.0,contado,comprar urgente,,True
+CONV-00252,LD-00139,Honda XR 150L,1000000.0,financiada,comprar,,True
+CONV-00463,LD-00637,Honda XR 150L,,,comparando,competencia mas barata,False
+CONV-00555,LD-01390,Honda CB 125F Twister,,,,,False
+CONV-00225,LD-00185,Hero Xpulse 200,,,,,False
+CONV-00077,LD-01347,Honda XR 150L,,financiada,pedir informacion,muy caro,False
+CONV-00491,LD-00806,Bajaj Pulsar NS 160,11200000.0,contado,comprar urgente,,True
+CONV-00345,LD-00571,Honda CB 125F Twister,,financiada,pedir informacion,inicial alta,False
+CONV-00146,LD-01242,Bajaj Discover 125,,financiada,comprar urgente,,False
+CONV-00461,LD-00494,AKT TTR 200,,financiada,comprar urgente,tiempo de entrega,False
+CONV-00222,LD-01491,Bajaj Pulsar NS 160,1000000.0,financiada,comprar,,True
+CONV-00478,LD-00835,Bajaj Dominar 400,,,solo mirar precios,comparando con otra marca,False
+CONV-00359,LD-00179,Honda XRE 300,22000000.0,contado,comprar urgente,,True
+CONV-00375,LD-00978,Hero Eco Deluxe 100,,,solo mirar precios,otra marca ofrece menos precio,False
+CONV-00263,LD-00484,Bajaj Boxer CT 100,1000000.0,financiada,comprar pronto,,True
+CONV-00400,LD-00853,Honda XRE 300,,financiada,averiguar credito,muy caro,False
+CONV-00424,LD-01436,Bajaj Dominar 400,,,solo mirar precios,debe consultar con su esposa,False
+CONV-00372,LD-00379,Bajaj Pulsar RS 200,15000000.0,contado,comprar urgente,,True
+CONV-00170,LD-00889,AKT Dynamic R3 125,,,solo mirar precios,busca moto usada,False
+CONV-00576,LD-00026,AKT Dynamic R3 125,2000000.0,financiada,comprar pronto,,True
+CONV-00412,LD-00770,Suzuki Gixxer 150,2000000.0,financiada,comprar pronto,,True
+CONV-00226,LD-00398,AKT Evo RS 150,2000000.0,financiada,comprar pronto,,True
+CONV-00258,LD-00894,Hero Dash 110,,,solo mirar precios,comparando marcas,False
+CONV-00106,LD-01212,AKT TTR 200,,financiada,comprar urgente,tiempo de entrega,False
+CONV-00568,LD-00211,Hero Hunk 160R,,financiada,averiguar credito,inicial muy alta,False
+CONV-00393,LD-00649,Bajaj Pulsar NS 160,1000000.0,financiada,averiguar credito,se sale del presupuesto,False
+CONV-00195,LD-00867,AKT Dynamic R3 125,,financiada,averiguando crédito,reportado,False
+CONV-00325,LD-01285,AKT NKD 125,,,comparando,muy caro,False
+CONV-00025,LD-00958,Suzuki GN 125,,,solo mirar precios,reportado,False
+CONV-00114,LD-01178,AKT TTR 200,9000000.0,contado,comprar urgente,,True
+CONV-00240,LD-00357,Suzuki GN 125,1000000.0,financiada,visitar concesionario,,True
+CONV-00448,LD-00053,Hero Eco Deluxe 100,1000000.0,financiada,averiguando financiamiento,reportado,False
+CONV-00215,LD-00898,Honda CB 190R,13000000.0,contado,comprar urgente,,True
+CONV-00133,LD-00561,Honda CB 125F Twister,,financiada,consultar en casa,,False
+CONV-00364,LD-00104,Honda XRE 300,,,comparando,tasa alta,False
+CONV-00324,LD-00903,AKT Dynamic R3 125,1000000.0,financiada,visitar concesionario,,True
+CONV-00584,LD-00291,Hero Dash 110,,financiada,consultar en casa,,False
+CONV-00333,LD-00096,Bajaj Pulsar RS 200,,,solo mirar precios,,False
+CONV-00574,LD-00591,Hero Hunk 160R,,,,,False
+CONV-00012,LD-01325,Hero Hunk 160R,0.0,financiada,averiguando financiamiento,busca moto usada,False
+CONV-00525,LD-01303,Suzuki V-Strom 250,,financiada,comprar urgente,tiempo de entrega,False
+CONV-00192,LD-00167,Bajaj Pulsar NS 125,,financiada,saber valor de la cuota,reportado,False
+CONV-00296,LD-00320,Hero Eco Deluxe 100,,financiada,comprar urgente,,False
+CONV-00522,LD-01044,Hero Hunk 160R,500000.0,financiada,consultar con la familia,,False
+CONV-00659,LD-00573,Suzuki V-Strom 250,21000000.0,contado,comprar urgente,,True
+CONV-00368,LD-00497,AKT NKD 125,,financiada,saber valor de la cuota,busca usadas,False
+CONV-00141,LD-00351,Bajaj Pulsar NS 160,,,solo mirar precios,,False
+CONV-00524,LD-01460,Honda XR 150L,800000.0,financiada,comparando,comparando otra marca,False
+CONV-00203,LD-00543,Honda CB 125F Twister,800000.0,financiada,averiguar financiacion,busca usada mas barata,False
+CONV-00344,LD-01469,Bajaj Dominar 400,,,comparando,busca usadas,False
+CONV-00436,LD-00146,Suzuki Gixxer 150,,,solo mirar precios,,False
+CONV-00657,LD-00584,Suzuki Best 125,6000000.0,contado,comprar urgente,,True
+CONV-00040,LD-00009,Honda Navi,,,solo mirar precios,,False
+CONV-00385,LD-00356,Hero Dash 110,,,comparando,busca usada mas barata,False
+CONV-00528,LD-01112,Honda Navi,1200000.0,financiada,averiguar financiacion,tasa alta,False
+CONV-00486,LD-00209,Hero Eco Deluxe 100,1000000.0,financiada,averiguar financiacion,reportado,False
+CONV-00451,LD-00148,AKT NKD 125,,,comprar urgente,,False
+CONV-00614,LD-00437,Bajaj Dominar 400,1000000.0,financiada,comprar urgente,,True
+CONV-00658,LD-00570,AKT Dynamic R3 125,5600000.0,contado,comprar urgente,,True
+CONV-00394,LD-00454,Honda XR 150L,11000000.0,contado,comprar urgente,,True
+CONV-00570,LD-01416,Honda XRE 300,,financiada,averiguar financiamiento,tasa alta,False
+CONV-00427,LD-01074,Hero Dash 110,,,solo mirar precios,comparando,False
+CONV-00383,LD-00759,Bajaj Pulsar NS 160,3000000.0,financiada,comprar financiada,,True
+CONV-00158,LD-00751,Bajaj Pulsar RS 200,,financiada,averiguar financiamiento,busca una usada,False
+CONV-00152,LD-01098,Hero Dash 110,,financiada,averiguar financiamiento,consultar en la casa,False
+CONV-00021,LD-01241,Suzuki Best 125,,,comparando,inicial muy alta,False
+CONV-00467,LD-00589,Hero Hunk 160R,,,comparando,muy caro,False
+CONV-00242,LD-01169,Hero Dash 110,,financiada,averiguar financiamiento,busca una usada,False
+CONV-00578,LD-01199,Suzuki V-Strom 250,2000000.0,financiada,comprar financiada,,True
+CONV-00428,LD-00547,Suzuki Gixxer 150,,,solo mirar precios,reportado,False
+CONV-00102,LD-01356,Suzuki GN 125,0.0,financiada,averiguar financiamiento,consultar con la esposa,False
+CONV-00571,LD-00013,Honda CB 190R,,financiada,comprar urgente,,False
+CONV-00148,LD-01117,AKT NKD 125,2000000.0,financiada,comprar urgente,,True
+CONV-00480,LD-00902,AKT TTR 200,1000000.0,financiada,comprar,,True
+CONV-00531,LD-01363,Suzuki Best 125,6590000.0,contado,comprar urgente,,True
+CONV-00221,LD-00126,Honda XRE 300,,,solo mirar precios,,False
+CONV-00317,LD-01187,Hero Xpulse 200,1500000.0,financiada,comprar urgente,,True
+CONV-00532,LD-00022,Suzuki GN 125,800000.0,financiada,averiguando credito,reportado,False
+CONV-00202,LD-00293,Suzuki Gixxer 150,,,solo mirar precios,muy caro,False
+CONV-00136,LD-01382,Hero Eco Deluxe 100,,,comparando,,False
+CONV-00130,LD-00124,Honda Navi,1000000.0,financiada,comprar,,True
+CONV-00388,LD-01365,Honda XR 150L,,,comparando,,False
+CONV-00495,LD-00002,Honda XRE 300,,financiada,averiguando credito,reportado,False
+CONV-00354,LD-00816,Bajaj Boxer CT 100,800000.0,financiada,comparando,,False
+CONV-00386,LD-01032,AKT NKD 125,5000000.0,contado,comprar urgente,,True
+CONV-00039,LD-01457,Bajaj Discover 125,,,solo mirar precios,,False
+CONV-00411,LD-00190,Hero Eco Deluxe 100,3000000.0,financiada,comprar urgente,,True
+CONV-00236,LD-01205,Bajaj Pulsar NS 125,,financiada,comparando,consultar en casa,False
+CONV-00322,LD-00731,Bajaj Boxer CT 100,1000000.0,financiada,comparando,mirando otra marca,False
+CONV-00218,LD-00425,Honda CB 190R,,financiada,comparando,busca moto usada,False
+CONV-00370,LD-01466,Honda Dio 110,,,solo mirar precios,mirando otra marca,False
+CONV-00420,LD-01181,Suzuki Gixxer 150,,financiada,comparando,mirando otra marca,False
+CONV-00036,LD-01345,Hero Eco Deluxe 100,0.0,financiada,comparando,muy caro,False
+CONV-00029,LD-01084,Honda CB 125F Twister,,,solo mirar precios,consultar en casa,False
+CONV-00046,LD-00314,Suzuki V-Strom 250,1000000.0,financiada,comparando,muy caro,False
+CONV-00020,LD-00584,Bajaj Pulsar NS 125,0.0,,solo mirar precios,sin inicial,False
+CONV-00150,LD-01376,Hero Hunk 160R,0.0,,solo mirar precios,sin inicial,False
+CONV-00670,LD-00328,Honda CB 190R,4000000.0,financiada,comprar urgente,,True
+CONV-00437,LD-00440,Suzuki Best 125,1000000.0,financiada,comprar urgente,,True
+CONV-00392,LD-01192,Honda XR 150L,1000000.0,financiada,comprar urgente,,True
+CONV-00634,LD-00782,Hero Eco Deluxe 100,,financiada,comparando,reportado,False
+CONV-00082,LD-00410,Honda CB 125F Twister,,,solo mirar precios,,False
+CONV-00465,LD-00960,AKT NKD 125,2000000.0,financiada,comprar financiada,,True
+CONV-00666,LD-00735,Honda Dio 110,4000000.0,financiada,comprar financiada,,True
+CONV-00186,LD-00840,AKT TTR 200,500000.0,financiada,comparando,comparando con otra marca,False
+CONV-00091,LD-00982,Honda Navi,,,comparando,muy caro,False
+CONV-00273,LD-00055,AKT NKD 125,,,solo mirar precios,,False
+CONV-00094,LD-01106,Honda Dio 110,,,comparando,buscando opción usada más barata,False
+CONV-00299,LD-01210,Bajaj Discover 125,1000000.0,financiada,averiguar cuotas,tasa alta,False
+CONV-00556,LD-01118,Bajaj Discover 125,,financiada,averiguar financiamiento,reportado,False
+CONV-00663,LD-01416,Bajaj Boxer CT 100,5790000.0,contado,comprar de contado,,True
+CONV-00661,LD-00922,Honda XRE 300,3000000.0,financiada,comprar financiada,,True
+CONV-00511,LD-00231,Suzuki GN 125,2000000.0,financiada,comprar financiada,,True
+CONV-00628,LD-00677,Hero Xpulse 200,,financiada,comparando,buscando opción usada más barata,False
+CONV-00194,LD-01219,Suzuki Best 125,6000000.0,contado,comprar de contado,,True
+CONV-00361,LD-01275,Bajaj Dominar 400,0.0,financiada,comprar urgente,,False
+CONV-00429,LD-00928,AKT Dynamic R3 125,,,comparando,busca usadas,False
+CONV-00250,LD-00037,Honda XR 150L,1000000.0,financiada,averiguar financiamiento,sin inicial suficiente,False
+CONV-00009,LD-01021,Hero Dash 110,2000000.0,financiada,comprar con inicial,,True
+CONV-00047,LD-01444,Bajaj Dominar 400,1000000.0,financiada,comprar urgente,,True
+CONV-00260,LD-00285,Bajaj Dominar 400,,,solo mirar precios,tasa alta,False
+CONV-00596,LD-00025,Hero Dash 110,2500000.0,financiada,comprar urgente,,True
+CONV-00253,LD-00975,AKT TTR 200,,,,,False
+CONV-00038,LD-00503,Bajaj Discover 125,1000000.0,financiada,averiguar y visitar,,True
+CONV-00085,LD-01006,Hero Hunk 160R,10490000.0,contado,comprar urgente,,True
+CONV-00159,LD-01095,Suzuki GN 125,,,solo mirar precios,tasa alta,False
+CONV-00577,LD-00201,Suzuki V-Strom 250,,,comparando,busca usadas,False
+CONV-00161,LD-00083,Hero Xpulse 200,1000000.0,financiada,averiguar financiamiento,reportado,False
+CONV-00206,LD-01305,Suzuki GN 125,,,solo mirar precios,inicial alta,False
+CONV-00125,LD-00097,Bajaj Pulsar NS 160,,,solo mirar precios,,False
+CONV-00607,LD-00277,Honda CB 190R,2000000.0,financiada,comprar urgente,,True
+CONV-00145,LD-00691,Suzuki GN 125,4000000.0,financiada,comprar y visitar local,,True
+CONV-00255,LD-00222,Suzuki GN 125,7000000.0,contado,comprar de contado y visitar hoy,,True
+CONV-00055,LD-00787,Suzuki GN 125,0.0,financiada,cotizar financiacion,muy caro,False
+CONV-00599,LD-00063,Bajaj Pulsar RS 200,0.0,financiada,cotizar financiacion,busca moto usada,False
+CONV-00041,LD-01002,Suzuki GN 125,,,solo mirar precios,sin cuota inicial,False
+CONV-00369,LD-00434,Honda CB 190R,,,solo mirar precios,busca moto usada,False
+CONV-00677,LD-00409,Suzuki Gixxer 150,11990000.0,contado,comprar urgente,,True
+CONV-00363,LD-00807,Bajaj Dominar 400,,,solo mirar precios,consultar con familia,False
+CONV-00407,LD-00885,Suzuki Gixxer 150,,,solo mirar precios,consultar con esposa,False
+CONV-00079,LD-00604,Hero Eco Deluxe 100,0.0,financiada,cotizar financiacion,busca moto usada,False
+CONV-00157,LD-00114,Honda XRE 300,22900000.0,contado,comprar de contado y visitar local,,True
+CONV-00440,LD-00504,AKT TTR 200,9900000.0,contado,comprar urgente,,True
+CONV-00110,LD-00897,Suzuki V-Strom 250,0.0,financiada,comprar urgente,tiempo de entrega,False
+CONV-00026,LD-00040,Hero Dash 110,2000000.0,financiada,comprar y visitar local,,True
+CONV-00336,LD-01072,Suzuki Best 125,1000000.0,financiada,cotizar financiacion,busca moto usada,False

@@ -1,0 +1,6 @@
+conversacion_id,lead_id,canal_conv,modelo_interes,presupuesto_mencionado,forma_pago,intencion_declarada,objecion_principal,pidio_cita
+CONV-00587,LD-01329,WhatsApp,Bajaj Pulsar RS 200,,,solo mirar precios,,False
+CONV-00030,LD-00122,WhatsApp,AKT TTR 200,,,,,False
+CONV-00229,LD-00430,WhatsApp,Honda Navi,1000000.0,financiada,evaluando opciones,muy caro,False
+CONV-00162,LD-00553,WhatsApp,AKT Evo RS 150,7200000.0,contado,comprar urgente,,True
+CONV-00060,LD-00068,WhatsApp,AKT Dynamic R3 125,0.0,financiada,comparando,comparando con otra marca,False
