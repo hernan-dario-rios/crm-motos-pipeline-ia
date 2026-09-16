@@ -1,0 +1,37 @@
+name: Despliegue Continuo en AWS EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Conectar por SSH y actualizar servidor
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.AWS_HOST }}
+          username: ubuntu
+          key: ${{ secrets.AWS_SSH_KEY }}
+          script: |
+            # Entrar a la carpeta del proyecto
+            cd crm-motos-pipeline-ia
+            
+            # Traer el código nuevo
+            git pull origin main
+            
+            # Activar el entorno virtual
+            source venv/bin/activate
+            
+            # Detener servicios anteriores (si existen)
+            pkill -f uvicorn || true
+            pkill -f streamlit || true
+            
+            # Reiniciar la API
+            nohup uvicorn api:app --host 0.0.0.0 --port 8000 > api.log 2>&1 &
+            
+            # Reiniciar el Dashboard
+            nohup streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 > dashboard.log 2>&1 &
