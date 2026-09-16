@@ -17,22 +17,28 @@ jobs:
           username: ubuntu
           key: ${{ secrets.AWS_SSH_KEY }}
           script: |
-            # 1. Ir a la ruta absoluta del proyecto
             cd /home/ubuntu/crm-motos-pipeline-ia
             
-            # 2. Traer el código nuevo
+            # 1. Guardar cualquier cambio manual temporalmente para que Git no bloquee la descarga
+            git stash
             git pull origin main
             
-            # 3. Activar el entorno virtual e instalar dependencias
+            # 2. Si por alguna razón el entorno virtual no existe, lo creamos
+            if [ ! -d "venv" ]; then
+              python3 -m venv venv
+            fi
+            
+            # 3. Activar e instalar
             source venv/bin/activate
             pip install -r requirements.txt
             
-            # 4. Detener servicios anteriores (si existen)
+            # 4. Detener servicios anteriores
             pkill -f uvicorn || true
             pkill -f streamlit || true
             
-            # 5. Reiniciar la API (El < /dev/null evita que GitHub se quede congelado)
-            nohup uvicorn api:app --host 0.0.0.0 --port 8000 < /dev/null > api.log 2>&1 &
+            # 5. Levantar servicios y desconectar la terminal de forma agresiva
+            nohup uvicorn api:app --host 0.0.0.0 --port 8000 > api.log 2>&1 < /dev/null &
+            nohup streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 > dashboard.log 2>&1 < /dev/null &
             
-            # 6. Reiniciar el Dashboard
-            nohup streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 < /dev/null > dashboard.log 2>&1 &
+            # 6. Decirle a GitHub Actions que todo salió bien y que cierre la conexión
+            exit 0
