@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # Configuración de la página
-st.set_page_config(page_title="CRM Motos - Mis Leads", page_icon="🏍️", layout="wide")
+st.set_page_config(page_title="CRM Motos -- Mis Leads", page_icon="🏍️", layout="wide")
 
 st.title("🏍️ Tablero de Gestión Comercial")
 st.subheader("Lista priorizada de gestión diaria")

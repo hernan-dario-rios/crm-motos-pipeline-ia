@@ -19,7 +19,6 @@ jobs:
           command_timeout: 45m
           script: |
             cd /home/ubuntu/crm-motos-pipeline-ia
-        
             git stash
             git pull origin main
             
@@ -30,16 +29,5 @@ jobs:
             source venv/bin/activate
             pip install -r requirements.txt
             
-            pkill -f uvicorn || true
-            pkill -f streamlit || true
-            
-            # 5. Levantar servicios y desvincularlos de la sesión SSH
-            nohup uvicorn api:app --host 0.0.0.0 --port 8000 > api.log 2>&1 < /dev/null &
-            disown
-            
-            nohup streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 > dashboard.log 2>&1 < /dev/null &
-            disown
-            
-            # 6. Pausa para cierre limpio y desconexión
-            sleep 2
-            exit 0
+            # Reiniciar los servicios nativos (GitHub se desconectará en un segundo)
+            sudo systemctl restart api dashboard
