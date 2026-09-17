@@ -19,27 +19,27 @@ jobs:
           command_timeout: 45m
           script: |
             cd /home/ubuntu/crm-motos-pipeline-ia
-            
-            # 1. Guardar cualquier cambio manual temporalmente para que Git no bloquee la descarga
+        
             git stash
             git pull origin main
             
-            # 2. Si por alguna razón el entorno virtual no existe, lo creamos
             if [ ! -d "venv" ]; then
               python3 -m venv venv
             fi
             
-            # 3. Activar e instalar
             source venv/bin/activate
             pip install -r requirements.txt
             
-            # 4. Detener servicios anteriores
             pkill -f uvicorn || true
             pkill -f streamlit || true
             
-            # 5. Levantar servicios y desconectar la terminal de forma agresiva
+            # 5. Levantar servicios y desvincularlos de la sesión SSH
             nohup uvicorn api:app --host 0.0.0.0 --port 8000 > api.log 2>&1 < /dev/null &
-            nohup streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 > dashboard.log 2>&1 < /dev/null &
+            disown
             
-            # 6. Decirle a GitHub Actions que todo salió bien y que cierre la conexión
+            nohup streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 > dashboard.log 2>&1 < /dev/null &
+            disown
+            
+            # 6. Pausa para cierre limpio y desconexión
+            sleep 2
             exit 0
